@@ -40,13 +40,11 @@ Foundry has no native way of tracking which forms a Druid knows. This module sol
 
 ## Installation
 
-### From the Foundry package browser
-Search for **Wildshape Bestiary** in Add-on Modules.
 
 ### Manual install
 Paste this manifest URL into Foundry's module installer:
 ```
-https://github.com/RedNeckSnailSpit/wildshape-bestiary/releases/latest/download/module.json
+https://rednecksnailspit.co.za/foundry/extensions/wildshape-bestiary/module.json
 ```
 
 ---
@@ -86,7 +84,7 @@ This module implements the 2024 D&D rules for Wild Shape:
 
 ## AI Disclosure
 
-This module's code was developed with AI assistance (Claude by Anthropic). Per [Foundry VTT's AI Content Policy](https://foundryvtt.com/article/ai-policy/), the author understands, can explain, and is able to maintain all submitted code.
+This module's code was developed with AI assistance (Claude by Anthropic). Per [Foundry VTT's AI Content Policy](https://foundryvtt.com/article/ai-policy/), the author (me) understands, can explain, and is able to maintain all submitted code.
 
 ---
 
