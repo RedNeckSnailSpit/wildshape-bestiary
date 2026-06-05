@@ -1,0 +1,28 @@
+{
+  "id": "wildshape-bestiary",
+  "title": "Wildshape Bestiary",
+  "description": "Tracks known Wild Shape forms for Druids in the dnd5e system.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "systems": [
+    "dnd5e"
+  ],
+  "authors": [
+    {
+      "name": "RNSnailSpit"
+    }
+  ],
+  "scripts": [
+    "scripts/known-forms.js"
+  ],
+  "styles": [
+    "styles/known-forms.css"
+  ],
+  "url": "https://rednecksnailspit.co.za/foundry/modules/wildshape-bestiary",
+  "manifest": "https://rednecksnailspit.co.za/foundry/modules/wildshape-bestiary/module.json",
+  "download": "https://rednecksnailspit.co.za/foundry/modules/wildshape-bestiary/dist/wildshape-bestiary.zip",
+  "flags": {}
+}

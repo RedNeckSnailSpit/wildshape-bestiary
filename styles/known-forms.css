@@ -1,0 +1,176 @@
+/* known-forms.css — Wildshape Bestiary */
+
+.wildshape-bestiary-section {
+  margin-top: 1rem;
+  border-top: 2px solid var(--color-border-light, #ccc);
+  padding-top: 0.5rem;
+}
+
+.wsb-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  padding: 0 0.25rem;
+}
+
+.wsb-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--font-primary);
+  color: var(--color-text-dark-primary, #333);
+}
+
+.wsb-counts {
+  font-size: 0.75rem;
+  color: var(--color-text-dark-secondary, #555);
+}
+
+/* Revert button — sits between header and drop zone */
+.wsb-revert-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  width: 100%;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  border: 1px solid var(--color-border-light, #ccc);
+  border-radius: 4px;
+  background: var(--color-bg-btn, #f0ebe0);
+  color: var(--color-text-dark-primary, #333);
+  cursor: pointer;
+  justify-content: center;
+}
+
+.wsb-revert-btn:hover {
+  background: var(--color-bg-btn-hover, #e0d8c8);
+}
+
+.wsb-drop-zone {
+  min-height: 2rem;
+  border: 1px dashed var(--color-border-light, #bbb);
+  border-radius: 4px;
+  padding: 0.2rem 0.25rem;
+}
+
+/* Each form row */
+.wsb-form-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.15rem 0.1rem;
+  border-bottom: 1px solid var(--color-border-light, #eee);
+  min-height: 2rem;
+}
+
+.wsb-form-row:last-child {
+  border-bottom: none;
+}
+
+.wsb-invalid {
+  opacity: 0.45;
+}
+
+/* Active form row — subtle highlight */
+.wsb-active {
+  background: color-mix(in srgb, var(--color-warm-1, #e8aa20) 12%, transparent);
+  border-radius: 3px;
+}
+
+/* Beast portrait */
+.wsb-form-img {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 3px;
+  object-fit: cover;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* Clickable name */
+.wsb-form-name {
+  flex: 1;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.wsb-form-name:hover,
+.wsb-form-img:hover {
+  text-decoration: underline;
+  color: var(--color-warm-1, #e8aa20);
+}
+
+.wsb-form-cr {
+  font-size: 0.75rem;
+  color: var(--color-text-dark-secondary, #666);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.wsb-badge {
+  font-size: 0.7rem;
+  color: var(--color-text-dark-secondary, #888);
+  flex-shrink: 0;
+}
+
+.wsb-warn {
+  color: var(--color-level-warning, #c88);
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+/* Active paw icon */
+.wsb-active-icon {
+  color: var(--color-warm-1, #e8aa20);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+/* Controls cluster */
+.wsb-form-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.wsb-form-controls .unbutton {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+/* Prepared sun button */
+.wsb-prepare-btn {
+  color: var(--color-text-dark-secondary, #888);
+}
+
+.wsb-prepare-btn.active {
+  color: var(--color-warm-1, #e8aa20);
+}
+
+/* Trash button */
+.wsb-remove-btn {
+  color: var(--color-text-dark-secondary, #888);
+}
+
+.wsb-remove-btn:hover {
+  color: var(--color-level-error, #c00);
+}
+
+.wsb-empty {
+  font-size: 0.8rem;
+  color: var(--color-text-dark-secondary, #888);
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: 0;
+}
